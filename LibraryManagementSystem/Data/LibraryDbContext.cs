@@ -12,19 +12,19 @@ namespace LibraryManagementSystem.Data
 
         public DbSet<Book> Books { get; set; }
         public DbSet<Member> Members { get; set; }
-        public DbSet<BookLoan> BookLoans { get; set; }
+        public DbSet<Loan> Loans { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             // Configure relationships
-            modelBuilder.Entity<BookLoan>()
+            modelBuilder.Entity<Loan>()
                 .HasOne(bl => bl.Book)
                 .WithMany()
                 .HasForeignKey(bl => bl.BookId);
 
-            modelBuilder.Entity<BookLoan>()
+            modelBuilder.Entity<Loan>()
                 .HasOne(bl => bl.Member)
                 .WithMany(m => m.BookLoans)
                 .HasForeignKey(bl => bl.MemberId);

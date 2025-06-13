@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j7eaiQ4m9hc=",
+  "dgSpecHash": "b0/CcauSqJI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\maher\\Desktop\\library mangment system\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\maher\\Desktop\\library mangment system - Copy\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maher\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\maher\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -22,13 +22,9 @@
         <div class="col-md-4 mb-4">
             <div class="card h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Quick Stats</h5>
-                    <ul class="list-unstyled">
-                        <li>📚 Track Book Inventory</li>
-                        <li>👥 Manage Member Records</li>
-                        <li>📅 Monitor Due Dates</li>
-                        <li>📊 Generate Reports</li>
-                    </ul>
+                    <h5 class="card-title">Member Management</h5>
+                    <p class="card-text">Add, view, edit, and delete member records.</p>
+                    <a asp-controller="Members" asp-action="Index" class="btn btn-primary">Manage Members</a>
                 </div>
             </div>
         </div>
@@ -36,49 +32,11 @@
         <div class="col-md-4 mb-4">
             <div class="card h-100">
                 <div class="card-body">
-                    <h5 class="card-title">System Features</h5>
-                    <ul class="list-unstyled">
-                        <li>✓ Easy Book Search</li>
-                        <li>✓ Member Management</li>
-                        <li>✓ Loan Tracking</li>
-                        <li>✓ Fine Calculation</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row mt-4">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Getting Started</h5>
-                    <p class="card-text">
-                        Welcome to our Library Management System. Here's how to get started:
-                    </p>
-                    <ol>
-                        <li>Browse the book collection using the Books menu</li>
-                        <li>Add new books to the system</li>
-                        <li>Track book availability and locations</li>
-                        <li>Manage member records and loans</li>
-                    </ol>
+                    <h5 class="card-title">Loan Management</h5>
+                    <p class="card-text">Track, add, edit, and return book loans.</p>
+                    <a asp-controller="Loans" asp-action="Index" class="btn btn-primary">Manage Loans</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-    .card {
-        transition: transform 0.2s;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-
-    .card:hover {
-        transform: translateY(-5px);
-    }
-
-    .list-unstyled li {
-        margin-bottom: 0.5rem;
-    }
-</style>

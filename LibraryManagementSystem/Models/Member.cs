@@ -27,13 +27,17 @@ namespace LibraryManagementSystem.Models
         [Required]
         public string Address { get; set; }
 
+        [Required]
         public DateTime MembershipDate { get; set; }
 
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
+        [Required]
+        [StringLength(50)]
         public string MembershipType { get; set; }
 
         // Navigation property for loans
-        public virtual ICollection<BookLoan> BookLoans { get; set; }
+        [System.ComponentModel.DataAnnotations.Schema.NotMapped]
+        public virtual ICollection<Loan>? BookLoans { get; set; } = new List<Loan>();
     }
 } 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maher\\Desktop\\library mangment system\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
+    "C:\\Users\\maher\\Desktop\\library mangment system - Copy\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maher\\Desktop\\library mangment system\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
+    "C:\\Users\\maher\\Desktop\\library mangment system - Copy\\LibraryManagementSystem\\LibraryManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maher\\Desktop\\library mangment system\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\maher\\Desktop\\library mangment system - Copy\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
         "projectName": "LibraryManagementSystem",
-        "projectPath": "C:\\Users\\maher\\Desktop\\library mangment system\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+        "projectPath": "C:\\Users\\maher\\Desktop\\library mangment system - Copy\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
         "packagesPath": "C:\\Users\\maher\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maher\\Desktop\\library mangment system\\LibraryManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\maher\\Desktop\\library mangment system - Copy\\LibraryManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
